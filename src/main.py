@@ -13,4 +13,5 @@ app = FastAPI(
 
 @app.get("/")
 def hello_world():
+     print("GEGE")
     return {"Hello": "World"}
